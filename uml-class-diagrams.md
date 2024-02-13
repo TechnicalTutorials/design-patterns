@@ -1,8 +1,8 @@
 # UML Class Diagrams
 
-| ClassName |
 
-|Name|Email|Address| 
+
+|ClassName| | | 
 |----|-----|-------|
 vis attribute : type
 vis operation(arg list) : return type
