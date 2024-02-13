@@ -1,8 +1,11 @@
-UML Class Diagrams
-ClassName
+#UML Class Diagrams
+
+## ClassName
+
 vis attribute : type
 vis operation(arg list) : return type
-where
+
+### where
 vis = visibility (+ for public, - for private)
 attribute = data member (aka field)
 operation = method (or constructor)
