@@ -2,6 +2,8 @@
 
 | ClassName |
 
+|Name|Email|Address| 
+
 vis attribute : type
 vis operation(arg list) : return type
 
