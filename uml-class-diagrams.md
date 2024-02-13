@@ -19,9 +19,12 @@ Class (i.e. static) methods and fields are indicated by underlining
 Constant (i.e. final) fields are indicated via naming convention: constants should be in ALL_CAPS
  
 
-Example:
-UML diagram
-Employee
+## Example:
+
+###UML diagram
+
+|Employee|
+|--------|
 -name:String
 -payRate:double
 -EMPLOYEE_ID:int
