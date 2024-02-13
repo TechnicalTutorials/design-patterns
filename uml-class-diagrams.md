@@ -1,6 +1,6 @@
 # UML Class Diagrams
 
-|:-- ClassName
+|:--| ClassName
 
 vis attribute : type
 vis operation(arg list) : return type
