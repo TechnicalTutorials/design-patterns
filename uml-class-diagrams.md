@@ -30,7 +30,7 @@ Constant (i.e. final) fields are indicated via naming convention: constants shou
 -EMPLOYEE_ID:int
 -nextID:int
 +STARTING_PAY_RATE:double
-|--------|
+
 +Employee(String)
 +Employee(String, double)
 +getName():String
