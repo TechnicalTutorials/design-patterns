@@ -78,15 +78,15 @@ public class Employee {
  -payRate:double
  -EMPLOYEE_ID:int
  -nextID:int
- +_STARTING_PAY_RATE:double_
+<u>+STARTING_PAY_RATE:double<u>
 |---------------------------- |
- +_Employee(String)_
- +_Employee(String, double)_
+ <u>+Employee(String)<u>
+ <u>+Employee(String, double)<u>
  +getName():String
  +getEmployeeID():int
  +getPayRate():double
  +changeName(String):void
  +changePayRate(double):void
- +getNextID():int
+ <u>+getNextID():int<u>
 
 
