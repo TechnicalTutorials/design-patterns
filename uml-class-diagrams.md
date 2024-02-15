@@ -1,44 +1,33 @@
 # UML Class Diagrams
 
 
+## Rule of Thumb
 
-|ClassName| 
-|------|
-vis attribute : type
-vis operation(arg list) : return type
+1) Give class name,
+2) Show the visibility of fields,
+3) Show the visibility of operation( or constructor)
 
-### where
-vis = visibility (+ for public, - for private)
-attribute = data member (aka field)
-operation = method (or constructor)
-Note:
+4) The arg list is a list of parameter types (e.g., int, double, String).
+5) Parameter names are not included in the UML class diagram.
+6) Methods that don't return a value (i.e. void methods) should give a return type of void.
 
-The arg list is a list of parameter types (e.g., int, double, String); parameter names are not included in the UML class diagram
-Methods that don't return a value (i.e. void methods) should give a return type of void
-Class (i.e. static) methods and fields are indicated by underlining
-Constant (i.e. final) fields are indicated via naming convention: constants should be in ALL_CAPS
+7) Class (i.e. static) methods and fields are indicated by underlining.
+8) Constant (i.e. final) fields are indicated via naming convention: constants should be in ALL_CAPS.
+
+
+|ClassName                     | 
+|------------------------------|
+visibility attribute : type
+visibility operation(arg list) : return type
+
  
+
 
 ## Example:
 
-## UML diagram
 
-|Employee|
-|--------|
--name:String
--payRate:double
--EMPLOYEE_ID:int
--nextID:int
-+STARTING_PAY_RATE:double
-+Employee(String)
-+Employee(String, double)
-+getName():String
-+getEmployeeID():int
-+getPayRate():double
-+changeName(String):void
-+changePayRate(double):void
-+getNextID():int
-Corresponding Java Class
+Example of a Java Class
+
 public class Employee {
 
     private String name;
@@ -77,3 +66,27 @@ public class Employee {
         return id;
     }
 }
+
+
+
+## UML diagram of the above Employee class
+
+
+|Employee                     |
+|-----------------------------|
+ -name:String
+ -payRate:double
+ -EMPLOYEE_ID:int
+ -nextID:int
+ +_STARTING_PAY_RATE:double_
+|---------------------------- |
+ +_Employee(String)_
+ +_Employee(String, double)_
+ +getName():String
+ +getEmployeeID():int
+ +getPayRate():double
+ +changeName(String):void
+ +changePayRate(double):void
+ +getNextID():int
+
+
